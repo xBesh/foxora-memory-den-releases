@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "notes": "## Foxora Memory Den v1.0.0\n\n- First publicly notarized release.\n- Apple Silicon (arm64) DMG signed + notarized + stapled.\n- Auto-update channel wired (minisign pubkey AFF5029D5C004F1B).",
+  "pub_date": "2026-05-12T11:26:44Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2pOQmNIYzBabWx4TTJGTlRIbE1NVEptY2pKelIxUlpkWGQ1UkVaUVoxQnFXbkJEVkhGUVpXVTRibXByY1VVMVNTOUhLM0prVXpseVNYWm5WVVlyZEZsYWRFNVBVM050YVhFeVJXSjBkWE5oUTFaNmVtZFpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5UZzFNRGd6Q1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDblV2TVhoRFNrdEVUbXhJUjNJNFEwRm9kRzVIYVVKamRYaGhkQ3RpWkVGM1JHdEdXazByT0RkRmRUSXJNbE4xZEU5RE5uTkRkWEp1VUdFclREQnFVV1ZUTW5NdmFYQlVkbWRsVHpCVU56STRSbGRIYWtOQlBUMEs=",
+      "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.0/mac/foxora-memory-den-aarch64.app.tar.gz"
+    }
+  }
+}
