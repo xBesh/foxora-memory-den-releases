@@ -6,6 +6,10 @@
     "darwin-aarch64": {
       "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2pOS1dHdDBSblptYUd4NlJsSjFWbXh4V1hBMWNtVk9NbmxSV0VzM1NEWXhjV05ZVkZkTE1XNXdhME5KUzJWM2NXbEthbUp6VERNeFNVVXlUWEZZUkN0eFIzTnhRbWhyTldSRlZrMWpjVWw1Y1VablNXZGpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5qRXlNREEyQ1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDbFpVYkRrMWNVVk1OVnBZY2t3MFVGSkhWV0o2VjJsaGRTOXpRelpqUVN0V1ZXaG9UaXRPVlZWblQzbHJZVk5qYTFocmFXeFlNa1ExYVhOTk5XUlhSbGgyVERSV2JURkdlSEY2UW1zMllXOHdkMXBXT0VGUlBUMEs=",
       "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.1/mac/foxora-memory-den-aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.1/windows/foxora-memory-den_1.0.1_x64-setup.exe"
     }
   }
 }
