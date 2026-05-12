@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "notes": "## Foxora Memory Den v1.0.0\n\n- First publicly notarized release.\n- Single-repo build: daemon (foxden + foxden-mcp) vendored at ./foxmemd/, no external workspace dependency.\n- Apple Silicon (arm64) DMG signed + notarized + stapled.\n- Auto-update channel wired (minisign pubkey AFF5029D5C004F1B).\n- Daemon Windows-build ready (#[cfg(unix)] gate on UDS listener).",
-  "pub_date": "2026-05-12T18:25:59Z",
+  "pub_date": "2026-05-12T18:39:16Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2paRU9VWkVVbFZPYlVZNVJtbFROVGMzYlhkRVZWRkpPWEJaYjJ0NmNUbEVhbWR1Y1ZScFNGazFPRE5TZERCSU1sbHZOVkZNY0ZkdVpYSnRORUpyVmtKeFZYVkpaSGxRYTJGR1NsSlFSbUZYWlZoMWFWRmpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5qQTVNekk0Q1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDak5RUVc5Nk5XRlFlbTlxWWxkRVlsbE5hVFFyV1RkaGFWUktOWEp6VXpSSFNrcE1PR1JvZDBWdmJIaHpSbEZYU1hsSGNYZzNRVmxoT0V0cWJUUllPVlZ3VURVeGJHbEhaMUJOUlVSWk9UVnBOV2hZT1VOQlBUMEs=",
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2pBelpXSXhVMVY0TW5GdlVsQnhVWEZWYkdsaFZURlpkbFYxZEdReGNHcFRUMkUwTVVSdlVsTlBiSFZ6VTJ4Qk56azVWVUZxWTA5VmIxRkdSRXRhSzNGTE1VTXdVMXBRZDBOWVNpOTNVRXh1ZWxoRU9XZHZQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5qRXhNRFl5Q1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDa3gyY3pFM1ZFdFFWMUE1SzAxd1EyeDFaM3BqVWpZeUwyUjZRMll2TWxjdlJ6RkdNelZFUlRsdlF6UTFla3M1TlZObldIRkJXVTlvWnpOUk1uWXdXa292WVU1eFVGQkxVVzAyZFdwcWJrTnllWHBWWTBGQlBUMEs=",
       "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.0/mac/foxora-memory-den-aarch64.app.tar.gz"
     }
   }
