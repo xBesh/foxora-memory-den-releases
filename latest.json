@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
-  "notes": "## Foxora Memory Den v1.0.0\n\n- First publicly notarized release.\n- Single-repo build: daemon (foxden + foxden-mcp) vendored at ./foxmemd/, no external workspace dependency.\n- Apple Silicon (arm64) DMG signed + notarized + stapled.\n- Auto-update channel wired (minisign pubkey AFF5029D5C004F1B).\n- Daemon Windows-build ready (#[cfg(unix)] gate on UDS listener).",
-  "pub_date": "2026-05-12T18:39:16Z",
+  "version": "1.0.1",
+  "notes": "## Foxora Memory Den v1.0.1\n\n**Auto-update is now visible.**\n- New \"Check for Updates\u2026\" item in the **Foxora Memory Den** app menu (next to About) and in the **Help** menu.\n- New **Updates** panel on the About page \u2014 shows current version, lets you check on demand, and surfaces \"Install & restart\" with live download progress when a new version is available.\n\n**Single-product build.**\n- The `foxden` daemon + `foxden-mcp` MCP server are now vendored inside this repo at `./foxmemd/`. Cloning Memory Den brings everything needed \u2014 no sibling repo dependency.\n- Windows-build path unblocked: the daemon's Unix-domain-socket listener is now gated to `#[cfg(unix)]`, so native compilation on Windows succeeds. The Tauri GUI and MCP clients use TCP, which is unaffected.\n\n**Plumbing.**\n- About page reads the running version via Tauri's runtime (`app.getVersion()`), so it always matches the bundled `.app` \u2014 no more hardcoded constant drifting from the manifest.\n- `bun run publish:update <version>` now picks up per-version release notes from `docs/release-notes/v<VERSION>.md` when present.\n\n\u2014 xBesh Labs, LLC",
+  "pub_date": "2026-05-12T18:54:47Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2pBelpXSXhVMVY0TW5GdlVsQnhVWEZWYkdsaFZURlpkbFYxZEdReGNHcFRUMkUwTVVSdlVsTlBiSFZ6VTJ4Qk56azVWVUZxWTA5VmIxRkdSRXRhSzNGTE1VTXdVMXBRZDBOWVNpOTNVRXh1ZWxoRU9XZHZQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5qRXhNRFl5Q1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDa3gyY3pFM1ZFdFFWMUE1SzAxd1EyeDFaM3BqVWpZeUwyUjZRMll2TWxjdlJ6RkdNelZFUlRsdlF6UTFla3M1TlZObldIRkJXVTlvWnpOUk1uWXdXa292WVU1eFVGQkxVVzAyZFdwcWJrTnllWHBWWTBGQlBUMEs=",
-      "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.0/mac/foxora-memory-den-aarch64.app.tar.gz"
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSWWxSM1FtTnVVVXd4Y2pOS1dHdDBSblptYUd4NlJsSjFWbXh4V1hBMWNtVk9NbmxSV0VzM1NEWXhjV05ZVkZkTE1XNXdhME5KUzJWM2NXbEthbUp6VERNeFNVVXlUWEZZUkN0eFIzTnhRbWhyTldSRlZrMWpjVWw1Y1VablNXZGpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpjNE5qRXlNREEyQ1dacGJHVTZabTk0YjNKaExXMWxiVzl5ZVMxa1pXNHRZV0Z5WTJnMk5DNWhjSEF1ZEdGeUxtZDZDbFpVYkRrMWNVVk1OVnBZY2t3MFVGSkhWV0o2VjJsaGRTOXpRelpqUVN0V1ZXaG9UaXRPVlZWblQzbHJZVk5qYTFocmFXeFlNa1ExYVhOTk5XUlhSbGgyVERSV2JURkdlSEY2UW1zMllXOHdkMXBXT0VGUlBUMEs=",
+      "url": "https://raw.githubusercontent.com/xBesh/foxora-memory-den-releases/main/v1.0.1/mac/foxora-memory-den-aarch64.app.tar.gz"
     }
   }
 }
